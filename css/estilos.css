@@ -1,0 +1,72 @@
+body {
+	font-family: tangerine;
+	background: #BBE3E4;
+}
+
+nav {
+	/*outline: 2px solid red;*/
+}
+
+ul {
+	/*outline: 2px solid blue;*/
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background: #800080;
+	line-height: 50px;
+}
+
+li {
+	/*outline: 2px solid yellow;*/
+	width: 220px;
+	display: inline-block;
+	text-align: center;
+}
+
+a {
+	/*outline: 2px solid green;*/
+	text-decoration:none;
+	display: block;
+	color: pink;
+}
+
+a:hover{
+	background: #D4966A;
+	color: #000000;
+}
+
+h1 {
+	font-family:tangerine;
+	color: blue;
+	text-align:center;
+	background-image: carro.png;
+	
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	
+}
+
+td,tr {
+	border: 2px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+ th {
+ background-color: #272170;
+ color: #FFFFFF;
+	border: 2px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+ 
+ h2 {
+ text-align:center;
+ }

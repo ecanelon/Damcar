@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<meta charset ="utf-8">
+<html>
+	<head>
+		<title>“Damcar SERVI-WASH” - INVENTARIO</title>
+		<link rel="shortcut icon" href="favicon.png">
+		<link rel= "stylesheet" href="css/estilos.css">
+	</head>
+	<body>
+		<center><img alt="carros" src= "favicon.png" width= "200px" </center>
+		<h1>Inventario</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="catalogo.html">Catálogo de Servicio</a></li>
+				<li><a href="#">Inventario</a></li>
+				<li><a href="clientes.html">Gestionar Cliente</a></li>
+				<li><a href="vehiculos.html">Gestionar Vehículo</a></li>
+				<li><a href="orden.html">Gestionar Orden de servicio</a></li>
+			
+			
+			</ul>
+		
+		</nav>
+	<br><br><br>
+	<form action="accionformEst.php" method="post">
+			<table>
+				
+				<tr>
+					 <th colspan="2"><center>Inventario de productos</center></th>
+					 </tr>
+				<tr>
+					<td>Código de barra</td>
+					<td><input type= "text" size=10 name="cod" placeholder="ingrese código "></td>
+					
+
+				</tr>
+				
+				<tr>
+					<td>Nombre</td>
+					<td><input type= "text" size=10 name="nombre" placeholder="ingrese nombre "></td>
+				</tr>
+				
+				<tr>
+					<td>Cantidad disponible</td>
+					<td><input type= "text" size=30 name="descripcion" placeholder="descripción del servicio"> </td>
+				</tr>
+				
+				<tr>
+					<td>Medida</td>
+					<td> <select name="medida">
+						
+					<option></option>
+
+					  <option>Litros</option>
+
+					  <option>Kilogramos</option>
+
+    </select>
+					</td>
+					
+					<tr>
+					<td>Stock minimo</td>
+					<td><input type= "text" size=30 name="descripcion" placeholder="Stock minimo"> </td>
+				</tr>
+				
+				<tr>
+					<td>Stock máximo</td>
+					<td><input type= "text" size=30 name="descripcion" placeholder="Stock máximo"> </td>
+				</tr>
+				
+				<tr>
+					<td>Costo</td>
+					<td><input type= "text" size=30 name="descripcion" placeholder="Costo"> </td>
+				</tr>
+				
+				<tr>
+					<td>Fecha de vencimiento</td>
+					<td><input type= "date" > </td>
+				</tr>
+				
+				
+				<tr>
+			<td><input type="submit"></td>
+			<td><input type="reset"></td>
+				
+				
+			</table>
+	<br>
+	&copy; Edimar Canelón, 2021
+	</body>
+</html>

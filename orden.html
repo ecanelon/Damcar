@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<meta charset ="utf-8">
+<html>
+	<head>
+		<title>“Damcar SERVI-WASH” - ORDEN DE SERVICIO</title>
+		<link rel="shortcut icon" href="favicon.png">
+		<link rel= "stylesheet" href="css/estilos.css">
+	</head>
+	<body>
+		<center><img alt="carros" src= "favicon.png" width= "200px" </center>
+		<h1>Gestión de Orden de Servicio</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="catalogo.html">Catálogo de Servicio</a></li>
+				<li><a href="inventario.html">Inventario</a></li>
+				<li><a href="clientes.html">Gestionar Cliente</a></li>
+				<li><a href="vehiculos.html">Gestionar Vehículo</a></li>
+				<li><a href="#">Gestionar Orden de servicio</a></li>
+			
+			
+			</ul>
+		
+		</nav>
+	<br><br><br>
+	<form action="accionformEst.php" method="post">
+			<table>
+				
+				<tr>
+					 <th colspan="2"><center>Getsionar orden  </center></th>
+					 </tr>
+				<tr>
+					<td>nro de orden</td>
+					<td><input type= "text" size=10 name="cod" placeholder="ingrese placa "     required> </td>
+</td>
+					
+
+				</tr>
+				
+				<tr>
+					<td>servicio</td>
+					<td><input type= "text" size=10 name="color" placeholder="ingrese color "      required> </td>
+</td>
+				</tr>
+				
+				<tr>
+					<td>operario</td>
+					<td><input type= "text" size=10 name="color" placeholder="ingrese color "      required> </td>
+				</tr>
+				
+				<tr>
+					<td>vehículo</td>
+					 <td><input type= "text" size=30 name="descripcion" placeholder="modelo del vehículo"       required> </td>
+ </td>
+					
+					<tr>
+					<td>fecha de emisión</td>
+					<td><input type= "date" </td>
+				</tr>
+				
+			
+				
+				
+				
+			<td><input type="submit"></td>
+			<td><input type="reset"></td>
+				</tr>
+				
+			</table>
+			<br>
+	&copy; Edimar Canelón, 2021
+	</body>
+</html>
